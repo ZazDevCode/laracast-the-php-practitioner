@@ -1,39 +1,5 @@
- <?php
- 
- class Post
- {
-    public $title;
-    public $published;
+<?php require 'partials/head.php'; ?>
 
-    public function __construct($title, $published){
-         $this->title = $title;
-         $this->published = $published;
-    }
- }
+    <h1>Posts</h1>
 
- $posts = [
-    new Post('My First Post', true),
-    new Post('My Second Post', true),
-    new Post('My Third Post', true),
-    new Post('My Fourth Post', false),
- ];
-
-//  $unpublishedPosts = array_filter($posts, function($post) {
-//     return !$post->published;
-//  });
-
-//  $publishedPosts = array_filter($posts, function($post) {
-//     return $post->published;
-//  });
-
-// $modified = array_map(function($post){
-//     return (array) $post;
-// }, $posts);
-
-
-$titles = array_column($posts, 'title');
-
-
-
- var_dump($titles);
-
+<?php require 'partials/footer.php' ; ?>

@@ -6,4 +6,5 @@ $routes->define([
     'about/culture' => 'controllers/about-culture.php',
     'contact' => 'controllers/contact.php',
     'posts' => 'controllers/posts.php',
+    'names' => 'controllers/add-name.php',
 ]);
