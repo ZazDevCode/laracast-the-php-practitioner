@@ -1,0 +1,11 @@
+CREATE DATABASE mytodo;
+CREATE TABLE todos (
+    description varchar(255) NOT NULL,
+    completed boolean DEFAULT false
+);
+INSERT INTO todos (description, completed)
+VALUES ('Fiets repareren',1);
+INSERT INTO todos (description, completed)
+VALUES ('Huis opruimen',0);
+INSERT INTO todos (description, completed)
+VALUES ('Was vouwen',0);
