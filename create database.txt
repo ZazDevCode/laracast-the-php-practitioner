@@ -1,4 +1,5 @@
 CREATE DATABASE mytodo;
+
 CREATE TABLE todos (
     description varchar(255) NOT NULL,
     completed boolean DEFAULT false
@@ -9,3 +10,9 @@ INSERT INTO todos (description, completed)
 VALUES ('Huis opruimen',0);
 INSERT INTO todos (description, completed)
 VALUES ('Was vouwen',0);
+
+
+CREATE TABLE users (
+    id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name varchar(100) NOT NULL,
+);
