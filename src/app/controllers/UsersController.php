@@ -2,6 +2,9 @@
 
 /*** User: Sascha Wernars */
 
+namespace App\Controllers;
+use App\Core\App;
+
 /**
  *
  * @author Sascha Wernars <s@scha.nl>
