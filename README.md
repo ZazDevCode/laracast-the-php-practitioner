@@ -1,4 +1,4 @@
-# Laravcast PHP Practitioner
+# Laracast PHP Practitioner
 
 ## Explanation about the project
 
